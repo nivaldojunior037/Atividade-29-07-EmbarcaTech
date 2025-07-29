@@ -32,14 +32,15 @@ git clone https://github.com/nivaldojunior037/Atividade-29-07-EmbarcaTech
 | `h`    | Exibe os comandos disponíveis (`help`)                           |
 
 3. A placa emite feedback de acordo com as ações executadas. O buzzer emite sinais sonoros em caso de iniciação do processo de leitura e de formatação do cartão SD (respectivamente, um beep curto e dois beeps, sendo um de início e um de fim de formatação). O LED RGB central da placa emite sinais visuais para feedback, mostrando:
-3.1. Luz branca durante o processo de formatação;
-3.2. Luz azul durante o processo de leitura;
-3.3. Luz vermelha durante a desmontagem do cartão;
-3.4. Luz amarela durante a montagem do cartão;
-3.5. Luz roxa em caso de detecção de algum erro, como solicitação de leitura com o cartão desmontado;
-3.6. Luz verde ao fim do processo de leitura.
 
-4. O display OLED também emite feedback, informando ao usuário o sensor utilizado e a ação em andamento. 
+  3.1. Luz branca durante o processo de formatação;
+  3.2. Luz azul durante o processo de leitura;
+  3.3. Luz vermelha durante a desmontagem do cartão;
+  3.4. Luz amarela durante a montagem do cartão;
+  3.5. Luz roxa em caso de detecção de algum erro, como solicitação de leitura com o cartão desmontado;
+  3.6. Luz verde ao fim do processo de leitura.
+
+5. O display OLED também emite feedback, informando ao usuário o sensor utilizado e a ação em andamento. 
 
 #### Link do vídeo
 
