@@ -45,7 +45,8 @@ git clone https://github.com/nivaldojunior037/Atividade-29-07-EmbarcaTech
   
   3.6. Luz verde ao fim do processo de leitura.
 
-4. O display OLED também emite feedback, informando ao usuário o sensor utilizado e a ação em andamento. 
+4. O display OLED também emite feedback, informando ao usuário o sensor utilizado e a ação em andamento.
+5. Também é possível realizar a geração de gráficos de aceleração e giroscópio para cada um dos eixos. Para tal, basta abrir o terminal do VS Code na pasta de seu projeto e digitar "cd .\ArquivosDados" e em seguida "python .\PlotarDados.py" (sem as aspas em ambos os casos). Após isso, os gráficos já são gerados sequencialmente. É necessário ter o Python instalado em seu dispositivo para realizar essa parte do projeto.
 
 #### Link do vídeo
 
