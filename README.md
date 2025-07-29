@@ -26,9 +26,9 @@ git clone https://github.com/nivaldojunior037/Atividade-29-07-EmbarcaTech
 | `a`    | Monta o cartão SD (`mount`)                                      |
 | `b`    | Desmonta o cartão SD (`unmount`)                                 |
 | `c`    | Lista os arquivos do cartão SD (`ls`)                            |
-| `d`    | Lê e exibe o conteúdo do arquivo `adc_data2.txt`                 |
+| `d`    | Lê e exibe o conteúdo do arquivo `data_mpu6050.csv`              |
 | `e`    | Mostra o espaço livre no cartão SD (`getfree`)                   |
-| `f`    | Captura 128 amostras do ADC e salva no arquivo `adc_data2.txt`   |
+| `f`    | Captura amostras do sensor e salva no arquivo `data_mpu6050.csv` |
 | `h`    | Exibe os comandos disponíveis (`help`)                           |
 
 3. A placa emite feedback de acordo com as ações executadas. O buzzer emite sinais sonoros em caso de iniciação do processo de leitura e de formatação do cartão SD (respectivamente, um beep curto e dois beeps, sendo um de início e um de fim de formatação). O LED RGB central da placa emite sinais visuais para feedback, mostrando:
